@@ -6,8 +6,14 @@ public class cSharpDataTypes //Public means that this class and its code can be 
 {
     //Data types - C# is an implicity typed language all that means is you need to state what kind of data a variable is.
     private string text = "Sample Text";
+    //Bool is short for boolean. It means true or false.
     private bool yesNo = true;
-    private int number = 1;
-    private float decimalNumber = 1.5f;
-    private double decimalNumberWithMoreSpaces = 1.00000000000005d;
+    private int number = 3;
+    private float floatNumber = 3.141592f;
+    private double doubleNumber = 3.14159265359d;
+    //Floats and doubles are similar, but basically data of course has "size"
+    //Think of the size as the number of characters in something 1.1 has 2 digits. 1.01 has 3 digits.
+    //A float is limited to a size (32 bits) and a double has a limit that is double that (64 bits)
+    
+
 }
