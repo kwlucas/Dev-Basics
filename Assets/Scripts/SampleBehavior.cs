@@ -21,8 +21,9 @@ public class SampleBehavior : MonoBehaviour
         numA = 1;
         numB = 2;
         numC = 1.5f;
+        int numD = numA + numB;
 
-        text = "A + B = " + numA + numB;
+        text = "A + B = " + numD;
         //TODO: Why does this print the wrong answer? Make it print the correct answer.
         Debug.Log(text);
         //TODO: I want to do the same with numbers A and C.
